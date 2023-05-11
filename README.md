@@ -1,11 +1,12 @@
 # Reverse-Polish-Notation-Evaluator
 
-this program opens a prompt, after inputing expression in reverse polish notation, the value of expression is printed to the standard output
+this program opens a prompt, after inputing expression in reverse polish notation, the value of expression is printed to the standard output.
+the result is rounded to 2 decimal places
+_numbers and functions should be separated by space character ' '_
 
 ## suported functions:
 
 _each function consumes values used by it_
-
 - \+ (addition) - adds 1st element of stack to 2nd
 - \- (subtraction) - subtract 1st element from stack to 2nd element
 - \* (multiplication) - multiply 1st and 2nd elements of stack
